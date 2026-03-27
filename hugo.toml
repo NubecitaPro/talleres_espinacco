@@ -3,7 +3,7 @@ baseURL = "https://talleres.espinacco.es"
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "es"
 
 # The name of this wonderful theme ;-).
 theme = "hugo-scroll"
@@ -44,7 +44,7 @@ enableEmoji = true
     description = "Ven a dibujar y a disfrutar"
 
     # Show a menu of languages available
-    language_menu = false
+    language_menu = true
 
     # Show also a language menu item for the current language, if false only
     # show the remaining languages
@@ -56,7 +56,7 @@ enableEmoji = true
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = false
+    hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
     invertSectionColors = false
@@ -70,7 +70,7 @@ enableEmoji = true
 
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
-    showContactIcons = false
+    showContactIcons = true
 
     # Show links indicated with footer_menu and footer_menu_title in the footer of the page
     showFooterLinks = false
@@ -105,8 +105,12 @@ enableEmoji = true
 
 # Define additional languages
 [languages]
-  [languages.en]
+  #[languages.en]
+  #  weight = 20
+  #  languageName = "English"
+  #  contentDir = "content/en"
+  [languages.es]
     weight = 10
-    languageName = "English"
-    contentDir = "content/en"
+    languageName = "Español"
+    contentDir = "content/es"
 

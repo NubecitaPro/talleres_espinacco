@@ -1,5 +1,5 @@
 ---
-title: "It is for you"
+title: "PARA QUIÉN ES ESTE TALLER"
 weight: 1
 header_menu_title: "Información"
 navigation_menu_title: "Información"
